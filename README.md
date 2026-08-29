@@ -15,7 +15,7 @@ investoren-banken.html    Investoren & Banken
 team.html                 Team
 kontakt.html              Kontakt (mailto, kein Formular)
 impressum.html            Impressum
-datenschutz.html          Datenschutz (Platzhalter, Sperrvermerk)
+datenschutz.html          Datenschutz (DSGVO-Entwurf, noch nicht anwaltlich geprüft)
 assets/css/style.css      zentrales Stylesheet (CI-konform)
 assets/js/main.js         Navigation, Scroll-Reveal, Fortschrittsanzeige
 assets/img/               Logo (520px und Master-Auflösung)
@@ -41,14 +41,18 @@ assets/img/               Logo (520px und Master-Auflösung)
 ## Offene Platzhalter (gelb markiert, `.ph`)
 
 - Team: Nachname, Funktion und Kurzprofil für Jürgen, Carsten, David, Jan, Christina.
-- Impressum: Telefonnummer Müller Holding AG, USt-IdNr.
-- Datenschutz: vollständige Datenschutzerklärung (Verantwortlicher, Hosting/Server-Logs, Kontaktaufnahme, Betroffenenrechte).
+- Impressum und Datenschutz: Telefonnummer Müller Holding AG, USt-IdNr.
+- Datenschutz: Hosting-Anbieter, Serverstandort und gegebenenfalls Auftragsverarbeitungsvertrag, sobald das Hosting ausgewählt ist.
+
+## Datenschutzerklärung: Status
+
+`datenschutz.html` enthält seit 29.08.2026 einen vollständigen DSGVO-Entwurf (Verantwortlicher, Zwecke und Rechtsgrundlagen, Server-Logfiles, Kontaktaufnahme per E-Mail, Speicherdauer, Cookies, externe Links, Betroffenenrechte, Aufsichtsbehörde). Der Entwurf spiegelt den aktuellen technischen Stand wider (keine Cookies, kein Tracking, kein Formular). Er ist **noch nicht durch einen Rechtsanwalt geprüft und nicht durch die Geschäftsführung freigegeben** und muss vor Live-Schaltung final geprüft werden, insbesondere sobald ein Hosting-Anbieter feststeht.
 
 ## Sperren vor Live-Schaltung
 
 1. Markenfreigabe durch Markenanwalt (R-006, drei aktive Aurevia-Gesellschaften, davon eine Healthcare/Frankfurt).
 2. Freigabe durch die Geschäftsführung.
-3. Vollständige Datenschutzerklärung.
+3. Rechtliche Prüfung und Freigabe der Datenschutzerklärung (Entwurf liegt vor, siehe oben).
 
 Bis alle drei Punkte erfüllt sind: Entwurfsband und `noindex` beibehalten, keine Live-Schaltung, keine Verlinkung von außen.
 
