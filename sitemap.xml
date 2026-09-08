@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Entwurfsstatus: Diese Sitemap ist technisch vorbereitet, aber die Website ist noch nicht
+  zur Veröffentlichung freigegeben (robots.txt sperrt vollständig, jede Seite trägt noindex).
+  Vor Live-Schaltung: lastmod-Daten aktualisieren und Domain bestätigen.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://aurevia-factoring.de/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://aurevia-factoring.de/fuer-aerzte/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aurevia-factoring.de/fuer-aerzte/privatliquidation-im-detail/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aurevia-factoring.de/fuer-zahnaerzte/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aurevia-factoring.de/fuer-zahnaerzte/laborkosten-vorfinanzieren/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aurevia-factoring.de/fuer-apotheken/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aurevia-factoring.de/fuer-apotheken/working-capital-im-detail/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aurevia-factoring.de/fuer-dentallabore/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aurevia-factoring.de/fuer-dentallabore/forderungsausfall-vermeiden/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aurevia-factoring.de/fuer-physiotherapeuten/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aurevia-factoring.de/fuer-physiotherapeuten/liquiditaet-heilmittelpraxis/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aurevia-factoring.de/fuer-tieraerzte/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aurevia-factoring.de/fuer-tieraerzte/zahlungsausfall-tierarztpraxis/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aurevia-factoring.de/fuer-sonstige-heilberufe/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aurevia-factoring.de/fuer-sonstige-heilberufe/berufsgruppen-im-detail/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aurevia-factoring.de/rechnungen-einreichen/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aurevia-factoring.de/factoring-finanzierung/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aurevia-factoring.de/ueber-uns/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aurevia-factoring.de/kontakt/</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://aurevia-factoring.de/impressum/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://aurevia-factoring.de/datenschutz/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>

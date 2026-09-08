@@ -4,9 +4,11 @@
 <script>document.documentElement.classList.add("js");</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Produktions-Hinweis: Sobald die Sperren (Markenfreigabe, Geschäftsführung, Datenschutz) erfüllt sind und die Seite live geht, hier auf "index, follow" umstellen, das Impressum muss laut SEO-Vorgabe auffindbar sein. Bis dahin bleibt die Seite wie alle anderen auf noindex, konsistent mit robots.txt und Entwurfsband. -->
 <meta name="robots" content="noindex, nofollow">
-<title>Impressum · Aurevia Factoring</title>
-<meta name="description" content="Impressum der Projektinformationsseite Aurevia Factoring, ein Vorhaben der Müller Holding AG.">
+<title>Impressum | AUREVIA Factoring</title>
+<meta name="description" content="Impressum und Anbieterkennzeichnung der Projektinformationsseite AUREVIA Factoring, ein Vorhaben der Müller Holding AG.">
+<link rel="canonical" href="https://aurevia-factoring.de/impressum/">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -16,36 +18,70 @@
 
 <nav class="mainnav">
   <div class="wrap">
-    <a class="wordmark" href="index.html">AUREVIA <span>FACTORING</span></a>
+    <a class="brandmark" href="index.html">
+      <svg viewBox="0 0 40 40" width="32" height="32" aria-hidden="true">
+        <polygon points="20,4 3,36 14,36" fill="#0F8F82"/>
+        <polygon points="20,4 37,36 26,36" fill="#C99A4A"/>
+        <rect x="17" y="21" width="6" height="4" fill="#0F8F82"/>
+      </svg>
+      <span class="wordmark">AUREVIA<span class="sub">FACTORING</span></span>
+    </a>
     <ul class="navlinks">
       <li><a href="index.html">Start</a></li>
-      <li><a href="fuer-kunden.html">Für Kunden</a></li>
-      <li><a href="investoren-banken.html">Investoren &amp; Banken</a></li>
-      <li><a href="team.html">Team</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
-      <li><a href="impressum.html" aria-current="page">Impressum</a></li>
+      <li class="navdrop">
+        <button class="navparent" aria-haspopup="true" aria-expanded="false">Für wen? <span class="chev"></span></button>
+        <div class="megamenu">
+          <a href="fuer-aerzte.html"><span class="mm-label">Ärzte</span><span class="mm-desc">Privatliquidation vorfinanzieren</span></a>
+          <a href="fuer-zahnaerzte.html"><span class="mm-label">Zahnärzte</span><span class="mm-desc">Laborkosten vorfinanzieren</span></a>
+          <a href="fuer-apotheken.html"><span class="mm-label">Apotheken</span><span class="mm-desc">Working Capital &amp; Skonto</span></a>
+          <a href="fuer-dentallabore.html"><span class="mm-label">Dentallabore</span><span class="mm-desc">Forderungsausfall vermeiden</span></a>
+          <a href="fuer-physiotherapeuten.html"><span class="mm-label">Physiotherapeuten</span><span class="mm-desc">Liquidität in der Heilmittelpraxis</span></a>
+          <a href="fuer-tieraerzte.html"><span class="mm-label">Tierärzte</span><span class="mm-desc">Zahlungsausfall vermeiden</span></a>
+          <a href="fuer-sonstige-heilberufe.html"><span class="mm-label">Sonstige Heilberufe</span><span class="mm-desc">Individuell geprüft</span></a>
+        </div>
+      </li>
+      <li><a href="rechnungen-einreichen.html">So funktioniert's</a></li>
+      <li><a href="factoring-finanzierung.html">Factoring &amp; Finanzierung</a></li>
+      <li><a href="ueber-uns.html">Über uns</a></li>
     </ul>
-    <button class="navtoggle" aria-label="Menü öffnen" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="navcta">
+      <a class="btn ghost-navy sm" href="kontakt.html">Kontakt</a>
+      <a class="btn solid sm" href="kontakt.html">Liquidität prüfen</a>
+    </div>
+    <button class="navtoggle" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
 </nav>
 
 <div class="mobilepanel">
   <button class="close" aria-label="Menü schließen"><span></span><span></span></button>
-  <a href="index.html">Start</a>
-  <a href="fuer-kunden.html">Für Kunden</a>
-  <a href="investoren-banken.html">Investoren &amp; Banken</a>
-  <a href="team.html">Team</a>
-  <a href="kontakt.html">Kontakt</a>
-  <a href="impressum.html">Impressum</a>
+  <a class="toplink" href="index.html">Start</a>
+  <details>
+    <summary>Für wen?</summary>
+    <div class="sublist">
+      <a href="fuer-aerzte.html">Ärzte</a>
+      <a href="fuer-zahnaerzte.html">Zahnärzte</a>
+      <a href="fuer-apotheken.html">Apotheken</a>
+      <a href="fuer-dentallabore.html">Dentallabore</a>
+      <a href="fuer-physiotherapeuten.html">Physiotherapeuten</a>
+      <a href="fuer-tieraerzte.html">Tierärzte</a>
+      <a href="fuer-sonstige-heilberufe.html">Sonstige Heilberufe</a>
+    </div>
+  </details>
+  <a class="toplink" href="rechnungen-einreichen.html">So funktioniert's</a>
+  <a class="toplink" href="factoring-finanzierung.html">Factoring &amp; Finanzierung</a>
+  <a class="toplink" href="ueber-uns.html">Über uns</a>
+  <a class="toplink" href="kontakt.html">Kontakt</a>
 </div>
 
 <div class="status">
-  <div class="wrap"><b>Projektstatus</b><span>Aurevia Factoring befindet sich im Aufbau. Das Erlaubnisverfahren nach dem Kreditwesengesetz (KWG) bei der BaFin wird derzeit vorbereitet. Diese Seite dient der Vorabinformation.</span></div>
+  <div class="wrap"><b>Projektstatus</b><span>AUREVIA Factoring ist ein Vorhaben der Müller Holding AG in Vorbereitung. Das Erlaubnisverfahren nach dem Kreditwesengesetz (KWG) bei der BaFin wird vorbereitet. Diese Seite dient der Vorabinformation, es werden keine Factoringleistungen erbracht.</span></div>
 </div>
 
-<header class="pagehero">
+<div class="breadcrumb">
+  <div class="wrap"><a href="index.html">Start</a><span class="sep">/</span><span class="current">Impressum</span></div>
+</div>
+
+<header class="pagehero compact">
   <div class="wrap">
     <div class="kicker reveal">Rechtliches</div>
     <h1 class="reveal reveal-delay-1">Impressum</h1>
@@ -55,41 +91,105 @@
 
 <section>
   <div class="wrap legal">
-    <p class="reveal">Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG):</p>
+    <div class="toc">
+      <a href="#anbieter">Angaben gemäß § 5 DDG</a>
+      <a href="#aufsicht">Aufsichtsrechtliche Angaben</a>
+      <a href="#redaktion">Redaktionell Verantwortlicher</a>
+      <a href="#haftpflicht">Berufshaftpflichtversicherung</a>
+      <a href="#streitbeilegung">Verbraucherstreitbeilegung</a>
+      <a href="#haftung-inhalte">Haftung für Inhalte</a>
+      <a href="#haftung-links">Haftung für Links</a>
+      <a href="#urheberrecht">Urheberrecht</a>
+      <a href="#bildnachweise">Bildnachweise</a>
+      <a href="#projektstatus">Hinweis zum Projektstatus</a>
+      <a href="#datenschutz">Datenschutz</a>
+    </div>
 
-    <h3>Diensteanbieter</h3>
-    <p>Müller Holding AG<br>Rheinpromenade 13<br>40789 Monheim am Rhein</p>
+    <h2 id="anbieter">Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG)</h2>
+    <p>Müller Holding AG<br>Rheinpromenade 13<br>40789 Monheim am Rhein<br>Deutschland</p>
+    <p style="margin-top:10px">Vertreten durch den Vorstand: Timo Müller<br>Aufsichtsratsvorsitzender: Jan Walprecht<br>Sitz: Monheim am Rhein<br>Registergericht: Amtsgericht Düsseldorf, HRB 104291</p>
+    <p style="margin-top:10px">Telefon: <span class="ph">[Telefonnummer vor Veröffentlichung einsetzen]</span><br>E-Mail: kontakt@mueller-holding.ag<br>Website: mueller-holding.ag</p>
+    <p style="margin-top:10px">Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: <span class="ph">[USt-IdNr. einsetzen, sofern vorhanden]</span></p>
 
-    <h3>Kontakt</h3>
-    <p>E-Mail: kontakt@mueller-holding.ag<br>Telefon: <span class="ph">[Telefonnummer vor Veröffentlichung einsetzen]</span></p>
+    <h2 id="aufsicht">Aufsichtsrechtliche Angaben</h2>
+    <p>„AUREVIA Factoring" bezeichnet ein Vorhaben der Müller Holding AG in Vorbereitung. Eine eigene Gesellschaft ist noch nicht gegründet und nicht im Handelsregister eingetragen. Es werden derzeit keine Factoring- oder sonstigen erlaubnispflichtigen Finanzdienstleistungen erbracht.</p>
+    <p style="margin-top:10px">Factoring ist eine Finanzdienstleistung nach § 1 Abs. 1a Satz 2 Nr. 9 KWG und unterliegt der Aufsicht der Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) und gegebenenfalls der Deutschen Bundesbank. Das Erlaubnisverfahren für die künftige Projektgesellschaft wird vorbereitet; es liegt noch keine Erlaubnis vor. Sobald eine Gesellschaft gegründet und eine Erlaubnis erteilt oder eine Registrierung vorgenommen wurde, werden die zuständige Aufsichtsbehörde, die Anschrift und die Erlaubnis- beziehungsweise Registerangaben an dieser Stelle ergänzt.</p>
 
-    <h3>Vertretung und Register</h3>
-    <p>Vorstand: Timo Müller<br>Aufsichtsratsvorsitzender: Jan Walprecht<br>Sitz: Monheim am Rhein<br>Registergericht: Amtsgericht Düsseldorf, HRB 104291</p>
+    <h2 id="redaktion">Verantwortlich für journalistisch-redaktionelle Inhalte nach § 18 Abs. 2 MStV</h2>
+    <p>Diese Angabe wird ergänzt, sobald die Website journalistisch-redaktionelle Inhalte anbietet, etwa einen Fachartikel- oder Ratgeberbereich. Reine Produktinformationsseiten lösen diese Pflicht nicht aus.</p>
 
-    <h3>Umsatzsteuer</h3>
-    <p><span class="ph">[USt-IdNr. einsetzen, sofern vorhanden]</span></p>
+    <h2 id="haftpflicht">Berufshaftpflichtversicherung</h2>
+    <p>Versicherer: <span class="ph">[Name und Anschrift des Versicherers, sofern einschlägig]</span><br>Räumlicher Geltungsbereich: <span class="ph">[z. B. Deutschland / EU]</span></p>
 
-    <h3>Hinweis zum Projektstatus</h3>
-    <p>Diese Website ist eine Projektinformationsseite der Müller Holding AG. „Aurevia Factoring“ bezeichnet ein Vorhaben in Vorbereitung. Eine Gesellschaft unter dieser Firma ist noch nicht gegründet und nicht im Handelsregister eingetragen. Es werden keine Factoring- oder sonstigen Finanzdienstleistungen erbracht. Das Erlaubnisverfahren nach dem KWG bei der BaFin wird vorbereitet.</p>
+    <h2 id="streitbeilegung">Verbraucherstreitbeilegung nach §§ 36, 37 VSBG</h2>
+    <p>Die Müller Holding AG ist <span class="ph">[zur Teilnahme / nicht zur Teilnahme]</span> an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle <span class="ph">[bereit und verpflichtet / bereit / nicht bereit]</span>. Zuständige Verbraucherschlichtungsstelle, sofern teilnehmend: <span class="ph">[Name, Anschrift und Website der Schlichtungsstelle]</span>.</p>
 
-    <h3>Datenschutz</h3>
+    <h2 id="haftung-inhalte">Haftung für Inhalte</h2>
+    <p>Als Diensteanbieterin ist die Müller Holding AG gemäß § 7 Abs. 1 DDG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach den §§ 8 bis 10 DDG sind wir als Diensteanbieterin jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben unberührt. Eine Haftung ist erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden entsprechender Rechtsverletzungen entfernen wir diese Inhalte umgehend.</p>
+
+    <h2 id="haftung-links">Haftung für Links</h2>
+    <p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für diese fremden Inhalte kann keine Gewähr übernommen werden. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft; rechtswidrige Inhalte waren nicht erkennbar. Eine permanente inhaltliche Kontrolle ist ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen entfernen wir derartige Links umgehend.</p>
+
+    <h2 id="urheberrecht">Urheberrecht</h2>
+    <p>Die auf dieser Website erstellten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Rechteinhabers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit Inhalte nicht von der Betreiberin erstellt wurden, werden Urheberrechte Dritter beachtet und Inhalte Dritter als solche gekennzeichnet. Bei Hinweis auf eine Rechtsverletzung entfernen wir die betreffenden Inhalte umgehend.</p>
+
+    <h2 id="bildnachweise">Bildnachweise</h2>
+    <p><span class="ph">[Auflistung der Bildquellen und Lizenzen, sobald Bildmaterial verwendet wird. Bei Team- und Objektfotos wird die Einwilligung der abgebildeten Personen nach § 22 KunstUrhG dokumentiert.]</span></p>
+
+    <h2 id="projektstatus">Hinweis zum Projektstatus</h2>
+    <p>Diese Website ist eine Projektinformationsseite der Müller Holding AG. „AUREVIA Factoring" bezeichnet ein Vorhaben in Vorbereitung. Eine Gesellschaft unter dieser Firma ist noch nicht gegründet und nicht im Handelsregister eingetragen. Es werden keine Factoring- oder sonstigen Finanzdienstleistungen erbracht. Das Erlaubnisverfahren nach dem KWG bei der BaFin wird vorbereitet.</p>
+
+    <h2 id="datenschutz">Datenschutz</h2>
     <p>Ausführliche Hinweise zur Verarbeitung personenbezogener Daten finden Sie in der <a href="datenschutz.html">Datenschutzerklärung</a>. <span class="ph">[Entwurfsstatus: Diese Erklärung ist noch nicht durch einen Rechtsanwalt geprüft und nicht durch die Geschäftsführung freigegeben. Ohne diese Freigabe keine Live-Schaltung.]</span></p>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
-    <div>
-      <div class="fm">AUREVIA FACTORING</div>
-      <div class="sub">Projektgesellschaft in Vorbereitung · Registerangaben folgen nach Gründung</div>
-      <nav class="footnav">
-        <a href="impressum.html">Impressum</a>
-        <a href="datenschutz.html">Datenschutz</a>
-      </nav>
+    <div class="footgrid">
+      <div class="about">
+        <a class="brandmark" href="index.html">
+          <svg viewBox="0 0 40 40" width="32" height="32" aria-hidden="true">
+            <polygon points="20,4 3,36 14,36" fill="#0F8F82"/>
+            <polygon points="20,4 37,36 26,36" fill="#C99A4A"/>
+            <rect x="17" y="21" width="6" height="4" fill="#0F8F82"/>
+          </svg>
+          <span class="wordmark">AUREVIA<span class="sub">FACTORING</span></span>
+        </a>
+        <p>Spezialisierte Forderungsfinanzierung für Heilberufe. Ein Vorhaben der Müller Holding AG in Vorbereitung.</p>
+      </div>
+      <div>
+        <h4>Für wen</h4>
+        <ul>
+          <li><a href="fuer-aerzte.html">Ärzte</a></li>
+          <li><a href="fuer-zahnaerzte.html">Zahnärzte</a></li>
+          <li><a href="fuer-apotheken.html">Apotheken</a></li>
+          <li><a href="fuer-dentallabore.html">Dentallabore</a></li>
+          <li><a href="fuer-physiotherapeuten.html">Physiotherapeuten</a></li>
+          <li><a href="fuer-tieraerzte.html">Tierärzte</a></li>
+          <li><a href="fuer-sonstige-heilberufe.html">Sonstige Heilberufe</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="factoring-finanzierung.html">Factoring &amp; Finanzierung</a></li>
+          <li><a href="rechnungen-einreichen.html">So funktioniert's</a></li>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Rechtliches</h4>
+        <ul>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="right">
-      <div class="dom">aurevia-factoring.de</div>
-      <div class="desc">Factoring &amp; Finance for Healthcare</div>
+    <div class="footbottom">
+      <div class="sub">Projektgesellschaft in Vorbereitung · Registerangaben folgen nach Gründung</div>
+      <div class="legallinks"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div>
     </div>
   </div>
 </footer>

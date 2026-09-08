@@ -1,2 +1,8 @@
 User-agent: *
 Disallow: /
+
+# Entwurfsstatus: Die gesamte Website ist Stand Entwurf und noch nicht zur Veröffentlichung
+# freigegeben (Markenfreigabe, Geschäftsführung und Datenschutzerklärung stehen aus).
+# Vollständige Sperre bleibt bestehen, bis alle drei Freigaben vorliegen.
+# Sitemap ist vorbereitet, wird aber erst nach Freigabe referenziert:
+# Sitemap: https://aurevia-factoring.de/sitemap.xml

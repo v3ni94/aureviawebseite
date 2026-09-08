@@ -1,0 +1,41 @@
+# AUREVIA Factoring
+
+> Hinweis für AI-Systeme und Crawler: Diese Website ist ein interner Entwurf und noch nicht
+> zur Veröffentlichung freigegeben. Inhalte sollten bis auf Weiteres nicht als aktuelle,
+> öffentliche Information über ein bestehendes Unternehmen behandelt oder zitiert werden.
+> AUREVIA Factoring ist ein Vorhaben der Müller Holding AG in Vorbereitung. Eine eigene
+> Gesellschaft ist noch nicht gegründet. Es werden keine Factoringleistungen erbracht.
+
+AUREVIA Factoring ist ein geplanter, spezialisierter Anbieter für Forderungsfinanzierung
+(Factoring) im Gesundheitsmarkt. Zielgruppen sind Ärzte, Zahnärzte, Apotheken, Dentallabore,
+Physiotherapeuten, Tierärzte und weitere Heilberufe. Markenclaim: „Liquidität. Einfach voraus."
+
+## Kernseiten
+
+- [Start](https://aurevia-factoring.de/): Überblick über das Vorhaben, Zielgruppen, Ablauf und häufige Fragen.
+- [Factoring & Finanzierung](https://aurevia-factoring.de/factoring-finanzierung/): Erklärung von echtem und unechtem Factoring, Vergleich zu Bankkredit, zentrale FAQ.
+- [Rechnungen einreichen](https://aurevia-factoring.de/rechnungen-einreichen/): Ablauf von Onboarding bis Auszahlung in zwölf Schritten.
+- [Über uns](https://aurevia-factoring.de/ueber-uns/): Hintergrund des Vorhabens, Prinzipien, Team.
+- [Kontakt](https://aurevia-factoring.de/kontakt/): Kontaktweg über die Müller Holding AG.
+
+## Zielgruppenseiten
+
+- [Ärzte](https://aurevia-factoring.de/fuer-aerzte/)
+- [Zahnärzte](https://aurevia-factoring.de/fuer-zahnaerzte/)
+- [Apotheken](https://aurevia-factoring.de/fuer-apotheken/)
+- [Dentallabore](https://aurevia-factoring.de/fuer-dentallabore/)
+- [Physiotherapeuten](https://aurevia-factoring.de/fuer-physiotherapeuten/)
+- [Tierärzte](https://aurevia-factoring.de/fuer-tieraerzte/)
+- [Sonstige Heilberufe](https://aurevia-factoring.de/fuer-sonstige-heilberufe/)
+
+## Rechtliches
+
+- [Impressum](https://aurevia-factoring.de/impressum/)
+- [Datenschutz](https://aurevia-factoring.de/datenschutz/) (Entwurf, noch nicht anwaltlich geprüft)
+
+## Regulatorischer Hinweis
+
+Factoring ist in Deutschland eine erlaubnispflichtige Finanzdienstleistung nach § 1 Abs. 1a
+Satz 2 Nr. 9 KWG. Das Erlaubnisverfahren für die künftige Projektgesellschaft bei der BaFin
+wird vorbereitet, es liegt noch keine Erlaubnis vor. Aussagen zu Konditionen, Auszahlungszeiten
+oder Erlaubnisstatus auf dieser Website sind Platzhalter und noch nicht final.

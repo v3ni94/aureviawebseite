@@ -3,7 +3,7 @@
 
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  /* Goldspur: dünne Scroll-Fortschrittslinie */
+  /* Scroll-Fortschrittslinie */
   var goldspur = document.querySelector(".goldspur");
   function updateGoldspur() {
     if (!goldspur) return;
@@ -20,7 +20,7 @@
     nav.classList.toggle("scrolled", window.scrollY > 12);
   }
 
-  /* Zurück-nach-oben */
+  /* Zurueck-nach-oben */
   var totop = document.querySelector(".totop");
   function updateTotop() {
     if (!totop) return;
@@ -67,7 +67,7 @@
   }
   if (closeBtn) closeBtn.addEventListener("click", closePanel);
   if (panel) {
-    panel.querySelectorAll("a").forEach(function (a) {
+    panel.querySelectorAll("a.toplink, .sublist a").forEach(function (a) {
       a.addEventListener("click", closePanel);
     });
   }
@@ -76,7 +76,7 @@
   });
 
   /* Scroll-Reveal (IntersectionObserver) */
-  var revealEls = document.querySelectorAll(".reveal, .h2bar, .phase-track");
+  var revealEls = document.querySelectorAll(".reveal, .h2bar, .tealline");
   if ("IntersectionObserver" in window && !reduceMotion) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
