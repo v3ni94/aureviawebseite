@@ -2,13 +2,13 @@
 
 Statische Mehrseiten-Website (reines HTML/CSS/JS, kein Build-Schritt, kein Framework).
 
-**Stand 08.09.2026: V1.8-Neuaufbau.** Die Seite wurde vollständig anhand der Konzeptdokumente `260830_AUREVIA_Website_Gesamtkonzept_V1.8.pdf`, `260830_AUREVIA_Website_Content_V1.8_MERGED` und `260830_AUREVIA_Sitestruktur_Diagramm_V1.8` neu aufgebaut: neue Informationsarchitektur (7 Zielgruppenseiten mit je einer Vertiefungsseite statt der bisherigen 3 Unterseiten), neues Farbschema (Midnight/Navy + Teal als Aktionsfarbe, Gold nur im Signet), neuer Claim „Liquidität. Einfach voraus.“, SEO-/AI-Struktur mit Schema.org, `llms.txt` und `sitemap.xml`.
+**Stand 08.09.2026: V1.8-Neuaufbau, jetzt zweisprachig (DE/EN).** Die Seite wurde vollständig anhand der Konzeptdokumente `260830_AUREVIA_Website_Gesamtkonzept_V1.8.pdf`, `260830_AUREVIA_Website_Content_V1.8_MERGED` und `260830_AUREVIA_Sitestruktur_Diagramm_V1.8` neu aufgebaut: neue Informationsarchitektur (7 Zielgruppenseiten mit je einer Vertiefungsseite statt der bisherigen 3 Unterseiten), neues Farbschema (Midnight/Navy + Teal als Aktionsfarbe, Gold nur im Signet), neuer Claim „Liquidität. Einfach voraus.“, SEO-/AI-Struktur mit Schema.org, `llms.txt` und `sitemap.xml`. Zusätzlich wurden alle 21 Seiten unter `en/` vollständig ins Englische übersetzt, inklusive Sprachumschalter, `hreflang`-Angaben und eigenen JSON-LD-Blöcken.
 
 ## Status
 
 **Entwurf, nicht zur Veröffentlichung freigegeben.** Jede Seite trägt ein Entwurfsband sowie `noindex, nofollow`; `robots.txt` sperrt die gesamte Seite zusätzlich vollständig für Suchmaschinen.
 
-## Struktur (21 Seiten)
+## Struktur (21 Seiten × 2 Sprachen = 42 Seiten)
 
 ```
 index.html                                          Start
@@ -37,7 +37,16 @@ assets/css/style.css      zentrales Stylesheet (Navy/Teal-Designsystem)
 assets/js/main.js         Navigation, Mega-Menü, Scroll-Reveal, Fortschrittsanzeige
 assets/img/                Logo-Rasterdateien aus dem bisherigen CI (aktuell ungenutzt, siehe Hinweis unten)
 robots.txt, sitemap.xml, llms.txt   technische SEO-/AI-Struktur, robots.txt sperrt vollständig
+
+en/                        Englische Übersetzung aller 21 Seiten, gleiche Struktur, flache
+                            englische Dateinamen (z. B. en/for-doctors.html), referenziert
+                            assets/ relativ über ../assets/...
 ```
+
+Jede deutsche und englische Seite trägt einen Sprachumschalter in Hauptnavigation, mobilem
+Menü und Footer (`.langswitch`) sowie `hreflang`-Angaben (de/en/x-default) im `<head>`. Die
+englischen Canonical-Pfade folgen demselben verschachtelten Schema wie die deutschen
+Vertiefungsseiten (z. B. `/en/for-doctors/private-billing-in-detail/`).
 
 Reale URLs (ohne Verzeichnisstruktur, flache Dateinamen für die statische Demo) sollen bei
 späterem Hosting mit URL-Rewriting auf die sauberen Pfade aus dem Sitestruktur-Diagramm
@@ -80,6 +89,8 @@ abgebildet werden (`/fuer-aerzte/`, `/fuer-aerzte/privatliquidation-im-detail/` 
 - Automatisierter Check: keine toten internen Links, kein „AUREVIA Factoring AG“ im Fließtext, jede Seite hat Entwurfsband, Footer-Zeile und alle 7 Mega-Menü-Einträge.
 - Z-Index-Fehler im mobilen Menü (Overlap mit Sticky-Nav) gefunden und behoben.
 - Sechs der sieben Zielgruppen-Seitenpaare wurden von parallelen Subagenten nach einem selbst gebauten Referenzpaar (Ärzte) erstellt und strukturell gegen dieses Muster verifiziert.
+- Alle 42 Seiten (21 DE + 21 EN) per Playwright mit echtem Scrollverhalten auf JavaScript-Fehler, hängengebliebene Scroll-Reveal-Elemente sowie Vollständigkeit von Sprachumschalter (Nav, mobiles Menü, Footer) und Mega-Menü geprüft; keine Abweichungen gefunden.
+- Automatisierter Grep-Check auf allen 21 englischen Seiten: kein „AUREVIA Factoring AG“ oder sonstiger Rechtsformzusatz im Fließtext.
 
 ## Sperren vor Live-Schaltung
 

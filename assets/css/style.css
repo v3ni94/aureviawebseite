@@ -95,6 +95,18 @@ nav.mainnav.scrolled .wrap { height: 60px; }
 
 .navcta { display: flex; align-items: center; gap: 14px; }
 
+.langswitch { display: flex; align-items: center; gap: 2px; font-size: 12.5px; font-weight: 700; letter-spacing: .04em; margin-right: 4px; }
+.langswitch a, .langswitch span { padding: 4px 6px; color: var(--label); }
+.langswitch a:hover { color: var(--teal-dark); }
+.langswitch .current { color: var(--navy); }
+.langswitch .sep { color: var(--hair); padding: 0; }
+.mobilepanel .langswitch { justify-content: center; margin: 26px 0 6px; font-size: 15px; }
+.mobilepanel .langswitch a, .mobilepanel .langswitch span { color: var(--bluegrey); padding: 6px 10px; }
+.mobilepanel .langswitch .current { color: #fff; }
+footer .langswitch { margin-top: 14px; }
+footer .langswitch a, footer .langswitch span { color: var(--bluegrey); }
+footer .langswitch .current { color: #fff; }
+
 .navtoggle { display: none; flex-direction: column; justify-content: center; gap: 5px; width: 32px; height: 32px; background: none; border: none; cursor: pointer; padding: 0; }
 .navtoggle span { display: block; height: 2px; width: 100%; background: var(--navy); transition: transform .3s var(--ease), opacity .3s var(--ease); }
 .navtoggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }

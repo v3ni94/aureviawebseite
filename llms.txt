@@ -10,6 +10,11 @@ AUREVIA Factoring ist ein geplanter, spezialisierter Anbieter für Forderungsfin
 (Factoring) im Gesundheitsmarkt. Zielgruppen sind Ärzte, Zahnärzte, Apotheken, Dentallabore,
 Physiotherapeuten, Tierärzte und weitere Heilberufe. Markenclaim: „Liquidität. Einfach voraus."
 
+Die Website ist zweisprachig (Deutsch/Englisch). Alle deutschen Seiten sind auch unter
+https://aurevia-factoring.de/en/... in englischer Übersetzung verfügbar (z. B.
+https://aurevia-factoring.de/en/ als englisches Pendant zur Startseite). Jede Seite trägt
+hreflang-Angaben für de, en und x-default.
+
 ## Kernseiten
 
 - [Start](https://aurevia-factoring.de/): Überblick über das Vorhaben, Zielgruppen, Ablauf und häufige Fragen.
@@ -32,6 +37,14 @@ Physiotherapeuten, Tierärzte und weitere Heilberufe. Markenclaim: „Liquiditä
 
 - [Impressum](https://aurevia-factoring.de/impressum/)
 - [Datenschutz](https://aurevia-factoring.de/datenschutz/) (Entwurf, noch nicht anwaltlich geprüft)
+
+## English version
+
+All pages above are also available in English under https://aurevia-factoring.de/en/,
+for example [Home](https://aurevia-factoring.de/en/), [Factoring & Financing](https://aurevia-factoring.de/en/factoring-financing/),
+[How it works](https://aurevia-factoring.de/en/submitting-invoices/), [About us](https://aurevia-factoring.de/en/about-us/),
+[Contact](https://aurevia-factoring.de/en/contact/), [Imprint](https://aurevia-factoring.de/en/imprint/) and
+[Privacy Policy](https://aurevia-factoring.de/en/privacy-policy/). The same draft/non-public status applies.
 
 ## Regulatorischer Hinweis
 
