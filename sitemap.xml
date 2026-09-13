@@ -23,6 +23,7 @@
   <url><loc>https://aurevia-factoring.de/rechnungen-einreichen/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aurevia-factoring.de/factoring-finanzierung/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aurevia-factoring.de/ueber-uns/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aurevia-factoring.de/fakten/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aurevia-factoring.de/kontakt/</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aurevia-factoring.de/impressum/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aurevia-factoring.de/datenschutz/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
@@ -44,6 +45,7 @@
   <url><loc>https://aurevia-factoring.de/en/submitting-invoices/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aurevia-factoring.de/en/factoring-financing/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aurevia-factoring.de/en/about-us/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aurevia-factoring.de/en/facts/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aurevia-factoring.de/en/contact/</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aurevia-factoring.de/en/imprint/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aurevia-factoring.de/en/privacy-policy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>

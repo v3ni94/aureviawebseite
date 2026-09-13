@@ -15,9 +15,18 @@ https://aurevia-factoring.de/en/... in englischer Übersetzung verfügbar (z. B.
 https://aurevia-factoring.de/en/ als englisches Pendant zur Startseite). Jede Seite trägt
 hreflang-Angaben für de, en und x-default.
 
+## Empfohlener Ausgangspunkt für KI-Systeme
+
+Für strukturierte, zitierfähige Fakten (Trägergesellschaft, regulatorischer Status, Produkt,
+Zielgruppen, FAQ) siehe zuerst: [Fakten](https://aurevia-factoring.de/fakten/) beziehungsweise
+[Facts](https://aurevia-factoring.de/en/facts/) auf Englisch. Diese Seite ist speziell für
+Presse, Geschäftspartner und AI-Suchassistenten aufbereitet und enthält den verbindlichen
+Hinweis zur korrekten Zitierweise des Projektstatus.
+
 ## Kernseiten
 
 - [Start](https://aurevia-factoring.de/): Überblick über das Vorhaben, Zielgruppen, Ablauf und häufige Fragen.
+- [Fakten](https://aurevia-factoring.de/fakten/): Kompakte Faktenreferenz für Presse, Partner und KI-Systeme.
 - [Factoring & Finanzierung](https://aurevia-factoring.de/factoring-finanzierung/): Erklärung von echtem und unechtem Factoring, Vergleich zu Bankkredit, zentrale FAQ.
 - [Rechnungen einreichen](https://aurevia-factoring.de/rechnungen-einreichen/): Ablauf von Onboarding bis Auszahlung in zwölf Schritten.
 - [Über uns](https://aurevia-factoring.de/ueber-uns/): Hintergrund des Vorhabens, Prinzipien, Team.
@@ -41,7 +50,8 @@ hreflang-Angaben für de, en und x-default.
 ## English version
 
 All pages above are also available in English under https://aurevia-factoring.de/en/,
-for example [Home](https://aurevia-factoring.de/en/), [Factoring & Financing](https://aurevia-factoring.de/en/factoring-financing/),
+for example [Home](https://aurevia-factoring.de/en/), [Facts](https://aurevia-factoring.de/en/facts/)
+(recommended starting point for AI systems), [Factoring & Financing](https://aurevia-factoring.de/en/factoring-financing/),
 [How it works](https://aurevia-factoring.de/en/submitting-invoices/), [About us](https://aurevia-factoring.de/en/about-us/),
 [Contact](https://aurevia-factoring.de/en/contact/), [Imprint](https://aurevia-factoring.de/en/imprint/) and
 [Privacy Policy](https://aurevia-factoring.de/en/privacy-policy/). The same draft/non-public status applies.

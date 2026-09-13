@@ -8,7 +8,7 @@ Statische Mehrseiten-Website (reines HTML/CSS/JS, kein Build-Schritt, kein Frame
 
 **Entwurf, nicht zur Veröffentlichung freigegeben.** Jede Seite trägt ein Entwurfsband sowie `noindex, nofollow`; `robots.txt` sperrt die gesamte Seite zusätzlich vollständig für Suchmaschinen.
 
-## Struktur (21 Seiten × 2 Sprachen = 42 Seiten)
+## Struktur (22 Seiten × 2 Sprachen = 44 Seiten)
 
 ```
 index.html                                          Start
@@ -29,6 +29,7 @@ fuer-sonstige-heilberufe-berufsgruppen-im-detail.html  └─ Vertiefung
 rechnungen-einreichen.html                          So funktioniert's (HowTo)
 factoring-finanzierung.html                         Factoring & Finanzierung (zentrale FAQ)
 ueber-uns.html                                      Über uns / Team
+fakten.html                                         Fakten (GEO-Grounding-Page für Presse/Partner/KI-Systeme)
 kontakt.html                                        Kontakt (mailto, Ziel aller CTAs)
 impressum.html                                      Impressum
 datenschutz.html                                    Datenschutz (23 Abschnitte, DSGVO-Entwurf)
@@ -63,6 +64,20 @@ abgebildet werden (`/fuer-aerzte/`, `/fuer-aerzte/privatliquidation-im-detail/` 
 - FAQ als natives `<details>/<summary>`, funktioniert ohne JavaScript.
 - Vergleichstabellen (`table.compare`) für Factoring-Modelle und Bankvergleich.
 - Progressive Enhancement bleibt erhalten: Inhalte sind ohne JavaScript vollständig sichtbar, Scroll-Reveal ist rein additiv (`.js`-Klasse wird per Inline-Script gesetzt).
+
+## Fakten-Seite (GEO-Grounding-Page)
+
+`fakten.html` / `en/facts.html` (11.09.2026, auf Wunsch von Timo Müller) ist eine dedizierte
+Referenzseite für Generative Engine Optimization (GEO): kompakte, marketingfreie Fakten in
+Tabellenform (Unternehmen & Träger, Produkt, Differenzierung) plus ein FAQ-Block mit
+`FAQPage`-Schema, speziell formuliert für Zitierbarkeit durch KI-Suchassistenten (ChatGPT,
+Perplexity, Google AI Overviews u. Ä.). Enthält einen expliziten Zitierhinweis, der KI-Systeme
+anweist, AUREVIA Factoring **nicht** als bereits gegründete, lizenzierte „AUREVIA Factoring AG“
+zu beschreiben. In `llms.txt` als empfohlener Ausgangspunkt für KI-Systeme verlinkt, in
+`sitemap.xml` enthalten und im Footer unter „Unternehmen“ auf allen 44 Seiten verlinkt (nicht
+im Hauptmenü, um die primäre Conversion-Navigation nicht zu überladen). Nutzt dieselben
+Kernfakten wie der Rest der Website (Träger Müller Holding AG, HRB 104291, Vorbereitungsstatus,
+Beispielwerte für kommerzielle Eckwerte), keine neuen oder abweichenden Angaben.
 
 ## Rechtliche Leitplanken (unverändert gegenüber v0.1, zwingend beachtet)
 
